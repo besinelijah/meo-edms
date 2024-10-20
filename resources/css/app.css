@@ -1,0 +1,15 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "override.css";
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+@import "vue-toastification/dist/index.css";
+@import 'leaflet/dist/leaflet.css';
+
+.container {
+  @apply max-w-7xl w-auto lg:max-w-full mx-auto px-5 sm:px-6;
+}
+
+.card {
+  @apply block w-full bg-white shadow p-7 rounded;
+}
